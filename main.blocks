@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="controls_if" id="02.3fJXAT1.gA)2WWt6=" disabled="true" x="-39" y="428"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="UYukm$@tc-r,#Sesn]ze" disabled="true"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_show_leds" id="MS46ZM[;3n4ePtbyZ]:H" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="@5%PIR0)7k*6U$O0B=4." disabled="true"><field name="NAME">Button.B</field><comment>Holding the B button down shows a frown face.</comment></block></value><statement name="DO1"><block type="device_show_leds" id=";nwMA=5wTPVX%vt1VR9e" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="SuLt`2M%-E^#ovbOuawp" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><comment>If no buttons are pressed, a straight-mouth face is shown on the LED grid.</comment></block></statement></block></xml>
